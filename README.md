@@ -1,17 +1,26 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# BikeShare Project
 
-### Date created
-Include the date you created this project and README file.
+This project explores US bikeshare data for three cities and lets users filter the data by city, month, and day.
 
-### Project Title
-Replace the Project Title
+## Features
+- Load and filter data interactively
+- Display common stats (most popular times, stations, trip durations)
+- Clean and simple command-line interface
 
-### Description
-Describe what your project is about and what it does
+## How to Run
+Run the script using: `python bikeshare.py`
 
-### Files used
-Include the files used
+## Author
+Created by Nawaf AlShahrani as part of the Udacity Nanodegree program.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+## Motivation
+This project was created as part of the Udacity Data Science Nanodegree to practice Python programming, data analysis, and user interaction through command-line inputs. The goal is to gain hands-on experience with real-world datasets while building a functional tool for data exploration.
 
+## Future Improvements
+- Add support for additional cities and datasets
+- Implement graphical data visualizations
+- Create a web-based version of the tool
+- Allow exporting results to CSV or Excel
+
+## Credits
+This project is part of the Udacity Data Science Nanodegree program.
