@@ -50,6 +50,7 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.day_name()
     
     months = ['january', 'february', 'march', 'april', 'may', 'june']
+    # Filter by month if needed
     if month != 'all':
         df = df[df['month'] == months.index(month) + 1]
     
