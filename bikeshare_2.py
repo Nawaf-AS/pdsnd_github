@@ -1,4 +1,5 @@
 # This program allows users to explore US bikeshare data interactively
+# Import necessary libraries
 import time
 import pandas as pd
 import numpy as np
@@ -40,7 +41,7 @@ def get_filters():
     print('-' * 40)
     return city, month, day
 
-
+# Loads data for the specified city and filters by month and day if applicable
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day.
@@ -51,6 +52,7 @@ def load_data(city, month, day):
     df['day_of_week'] = df['Start Time'].dt.day_name()
     
     months = ['january', 'february', 'march', 'april', 'may', 'june']
+    # Filter by month if needed
     if month != 'all':
         df = df[df['month'] == months.index(month) + 1]
     
