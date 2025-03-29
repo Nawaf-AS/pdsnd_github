@@ -1,3 +1,4 @@
+# This program allows users to explore US bikeshare data interactively
 import time
 import pandas as pd
 import numpy as np
