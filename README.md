@@ -9,3 +9,7 @@ This project explores US bikeshare data for three cities and lets users filter t
 
 ## How to Run
 Run the script using: `python bikeshare.py`
+
+## Credits
+
+This project is part of the Udacity Data Science Nanodegree program.
