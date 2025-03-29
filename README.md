@@ -17,3 +17,9 @@ Created by Nawaf AlSahw as part of the Udacity Nanodegree program.
 ## Motivation
 
 This project was created as part of the Udacity Data Science Nanodegree to practice Python programming, data analysis, and user interaction through command-line inputs. The goal is to gain hands-on experience with real-world datasets while building a functional tool for data exploration.
+## Future Improvements
+
+- Add support for additional cities and datasets
+- Implement graphical data visualizations
+- Create a web-based version of the tool
+- Allow exporting results to CSV or Excel
